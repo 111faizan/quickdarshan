@@ -28,7 +28,7 @@ function App(): JSX.Element {
   useEffect(() => {
     if (!isLoading && !isAuthenticated) {
       loginWithRedirect({
-        redirect_uri: 'https://quickdarshan-ncuk60v1w-111faizans-projects.vercel.app/callback' // Explicitly set the callback URL
+        redirect_uri: 'https://quickdarshan.vercel.app/callback' // Corrected callback URL
       });
     }
   }, [isLoading, isAuthenticated, loginWithRedirect]);
