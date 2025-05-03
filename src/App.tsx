@@ -24,10 +24,12 @@ function App(): JSX.Element {
     };
   }, [isLoading, isAuthenticated]);
 
-  // Redirect to login if not authenticated
+  // Explicitly redirect with the callback URL if not authenticated
   useEffect(() => {
     if (!isLoading && !isAuthenticated) {
-      loginWithRedirect();
+      loginWithRedirect({
+        redirect_uri: 'https://quickdarshan-ncuk60v1w-111faizans-projects.vercel.app/callback' // Explicitly set the callback URL
+      });
     }
   }, [isLoading, isAuthenticated, loginWithRedirect]);
 
