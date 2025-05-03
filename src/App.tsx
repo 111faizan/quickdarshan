@@ -12,7 +12,7 @@ function App(): JSX.Element {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const { isLoading, isAuthenticated, loginWithRedirect } = useAuth0();
 
-  // Prevent body scrolling during loading/login screen
+  // Prevent body scrolling during loading/login screen.
   useEffect(() => {
     if (isLoading || !isAuthenticated) {
       document.body.style.overflow = 'hidden';
