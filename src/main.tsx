@@ -9,10 +9,9 @@ createRoot(document.getElementById('root')!).render(
     domain="dev-4lan6cvp12u5vo84.us.auth0.com"
     clientId="JIrpcv4L4ZQKmnSsITqsZjUJoY184038"
     authorizationParams={{
-      redirect_uri: window.location.origin
+      redirect_uri: 'https://quickdarshan.vercel.app/callback' // Explicitly set the callback URL
     }}
   >
     <App />
-    </Auth0Provider>
-  
+  </Auth0Provider>
 );
