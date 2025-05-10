@@ -36,7 +36,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/quickdarshan.git
+git clone (https://github.com/111faizan/quickdarshan)
 cd quickdarshan
 
 
