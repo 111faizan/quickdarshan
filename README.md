@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [Visit Live Site](https://quickdarshan-ncuk60v1w-111faizans-projects.vercel.app/)
+🔗 [Visit Live Site] https://quickdarshan.vercel.app/
 
 ---
 
